@@ -1,2 +1,2 @@
-confirm('第三种')
-alert('第三种引入方式')
+confirm('第三种引入')
+alert('方式')
