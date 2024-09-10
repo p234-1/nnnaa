@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>js的三种引入方式</title>
+    <style>
+        h1{color:red;}
+        h2{color: aqua;}
+        p{color: red;}
+    </style>
 
+</head>
+<body>
+    <h1>js的三种引入方式</h1>
+    <p>第一种那个：行内式（标签所在的行）</p>
+    <input type="button" value="点击我" onclick="alert('第一种方式')" />
+    <a href="javascript:alert('引入')">点击我</a>
+
+    <h2>第二种方式：内嵌式</h2>
+    <script>
+        console.log('第二种')
+    </script>
+
+    <div>第三种:外链接(通过js文件)</div>
+    <script type="text/javascript" src="ppp.js"></script>
+</body>
+</html>
